@@ -1,3 +1,6 @@
 def square_array(array)
-  # your code here
+array_element_squared = 0
+  array.each do |array_element|
+    puts "Something"
+    array_element_squared += 1
 end
