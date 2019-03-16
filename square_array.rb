@@ -3,5 +3,6 @@ array_element_squared = 0
   array.each do |array_element|
     Integer.sqrt(array_element)
     array_element_squared += 1
+    array.collect
   end
 end
